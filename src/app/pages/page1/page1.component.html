@@ -1,0 +1,8 @@
+<div class="container responsive-grid">
+  @for (card of cardList; track card.name) {
+  <app-article-card></app-article-card>
+  } @empty {
+  <p>No articles</p>
+  }
+</div>
+
